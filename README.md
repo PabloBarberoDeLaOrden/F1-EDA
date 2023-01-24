@@ -1,18 +1,15 @@
 # ¿Ha logrado la nueva normativa de la F1 hacer de esta un deporte más competitivo?
 
-## Análisis exploratorio de datos de la Fórmula 1
+## Análisis exploratorio de datos de la Fórmula 1 a 23 Octubre 2022
+
+![F1](https://brandemia.org/contenido/subidas/2017/11/cabecera_formula1-scaled.jpg)
 
 ### Pablo Barbero De La Orden
-
 
 ## Objetivo y contexto del trabajo
 La Fórmula 1 es reconocida como el deporte rey dentro del mundo del motor, sin embargo el entorno que rodea al mundo de la Fórmula 1 no se resume exclusivamente en ser una serie de vehículos que giran alrededor de un circuito. 
 
-La Fórmula 1 es la principal culpable de la inversión e  investigación en la automoción, logrando llevar muchas de las piezas diseñadas que en un principio eran para competir al parque automovilístico mundial.
-
-Con ello quiero decir que esta entidad es una matriz que está en continuo movimiento y expansión, obligando a renovar su normativa prácticamente de manera anual.
-Muchos de los cambios de normativa que se han realizado a lo largo de la historia tenían distintos propósitos, la inclusión del ‘DRS’ con el que facilitar los adelantamientos, la inclusión de ‘Halo’ en la carrocería con la intención de garantizar una mayor seguridad al piloto. 
-Y el reciente cambio de normativa que obligaba a cambiar por completo el diseño de los automóviles cuyo propósito es facilitar a los vehículos que sigan al anterior. Este cambio de normativa no gira entorno a un factor deportivo como puede ser la seguridad del piloto. Este cambio tiene el propósito de ofrecer un mejor ‘show’ que haga de la Fórmula 1 un entretenimiento más adictivo.
+El reciente cambio de normativa obligaba a cambiar por completo el diseño de los automóviles cuyo propósito es facilitar a los vehículos que sigan al anterior. Este cambio tiene el propósito de ofrecer un mejor ‘show’ que haga de la Fórmula 1 un entretenimiento más adictivo.
 
 Desde mi punto de vista un deporte resulta más entretenido cuánto más competido es.
  Por ello se ha decidido estudiar si la nueva normativa ha permito a la Fórmula 1 ser un deporte más competitivo, a través de un análisis exploratorio de datos se buscarán las temporadas más dominantes y se compararán la última con estás y la actual.
@@ -21,19 +18,9 @@ Desde mi punto de vista un deporte resulta más entretenido cuánto más competi
 
 Los datos empleados constan de una serie de ficheros extraídos a través de la siguiente dirección: http://ergast.com/mrd/db/#csv 
 
-## Reestructuración de los datos 
-
-Recordando nuestro objeto de estudio, la obtención de nuestra conclusión se basará en la comparación de las temporadas. Sin embargo el sistema de puntos se ha visto variado a lo largo de los años. Por lo tanto en primer lugar se va a dar el sistema de puntos actual a todas las temporadas para realizar comparaciones más veraces, a su vez el punto extra por vuelta rápida no existía por lo que no se valorará tampoco.
-
-También se construirá un nuevo dato con la información acerca de la posición de parrilla y puesto final, de manera que restando ambas obtenemos la cantidad de puestos que ha ganado en carrera.
-
 ## Resumen de la temporada actual
 
-Se han desarrollado una serie de indicadores orientativos para resumir de manera directa la temporada 2022.
-
-Los aspectos que se han estudiado se dividen en dos ramas, por identificación de piloto o bien por identificación de constructor.
-
-En primer lugar, la clasificación de pilotos y constructores dónde se refleja como la escudería Red Bull ha dominado esta temporada, abanderada principalmente por su piloto Max Verstappen, que a pesar de que falten aún 4 carreras ya es matemáticamente campeón del mundo.
+En primer lugar, la clasificación de pilotos y constructores refleja cómo la escudería Red Bull ha dominado esta temporada, abanderada principalmente por su piloto Max Verstappen, que a pesar de que falten aún 4 carreras ya es matemáticamente campeón del mundo.
 
 Esta casuística puede suscitar que ha sido una de las temporadas más dominantes de la historia de la Fórmula 1 o al menos que no ha sido una temporada muy competitiva en cuanto a ganadores se refiere.
 
@@ -43,10 +30,16 @@ Aunque cómo se puede ver Red Bull dispone de un coche más consistente, entendi
 
 ## Identificación de temporadas más dominantes
 
-Como bien hemos comentados las temporadas de Fórmula 1 son cambiantes y han visto como el sistema de puntajes o el número de circuitos se ven alterados. Debido a esta situación y para una mejor comprensión de nuestros indicadores, se va normalizar los indicadores dividiéndolos por el número de carreras, de esta manera se obtendrá sus proporciones.
+En primer lugar se normalizaron los indicadores dividiéndolos por el número de carreras, de esta manera se obtienen sus proporciones.
 
-Por lo que se indicara los puntos por gran premio del ganador, la proporción de pódiums, de póles, de vueltas rápidas y las posiciones ganadas en carrera. 
-Cabe destacar que sólo se recoge información acerca de las vueltas rápidas a partir del año 2004, por ello no se presenta ninguna información anterior.
+Indicadores:
+
+- puntos por gran premio del ganador
+- proporción de pódiums
+- proporción de póles
+- proporción de vueltas rápidas
+- las posiciones ganadas en carrera
+
 Pudiendo de esta manera identificar cómo la temporada de Michael Schumacher en 2002, ha sido la más dominante de la F1. Habiendo estado en el podio todas las carreras, consiguiendo 22 puntos de media.
 
 Otra temporada a tener en cuenta es la que realizó Vettel en 2011, quizá no fue la mejor en tiempo de carrera pero si lo fue a una vuelta ya que obtuvo la pol position en alrededor de un 80% de las carreras y disponiendo de unos 20 puntos por carrera, uno de los valores más altos.
