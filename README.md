@@ -40,6 +40,8 @@ Indicadores:
 - proporción de vueltas rápidas
 - las posiciones ganadas en carrera
 
+![Graph_comparativo](https://github.com/PabloBarberoDeLaOrden/F1-EDA/blob/main/F1_EDA/ptos_posis_anio.html)
+
 Pudiendo de esta manera identificar cómo la temporada de Michael Schumacher en 2002, ha sido la más dominante de la F1. Habiendo estado en el podio todas las carreras, consiguiendo 22 puntos de media.
 
 Otra temporada a tener en cuenta es la que realizó Vettel en 2011, quizá no fue la mejor en tiempo de carrera pero si lo fue a una vuelta ya que obtuvo la pol position en alrededor de un 80% de las carreras y disponiendo de unos 20 puntos por carrera, uno de los valores más altos.
@@ -70,11 +72,9 @@ Sin embargo, resumir la competitividad exclusivamente al primer y segundo puesto
 
 ## Conclusión
 
-Tras realizar un estudio intensivo acerca de la dominancia en la Fórmula 1 podemos detallar que esta temporada dispone de características similares a aquellas temporadas dónde un piloto y su escudería fueron abusivamente dominantes. Por lo que el ‘show’ de esas temporadas perdió interés a medida que transcurrían los Grandes Premios.
+ - Características similares a aquellas temporadas dónde un piloto y su escudería fueron abusivamente dominantes. 
 
-Esto nos podría llevar a entender que el objetivo principal del nuevo reglamento no logró su acometido principal, más aún si lo comparamos con la temporada anterior donde tuvimos el campeonato más competido de los últimos años.
-
-Si bien es cierto que se ha logrado una mayor competitividad entre el resto de escuderías, llegando incluso a acercar a escuderías no acostumbradas a puntuar a situarse en puestos cercanos a la cabeza.
+ - Se ha logrado una mayor competitividad entre el resto de escuderías, llegando incluso a acercar a escuderías no acostumbradas a puntuar a situarse en puestos cercanos a la cabeza.
 
 Históricamente después de un cambio de normativa tan grande suele aparecer un equipo que ‘da con la tecla’ y construye el mejor coche. Luego quizá basarse exclusivamente en el campeón con tan sólo una temporada en la que la normativa está vigente no resulta concluyente.
 
