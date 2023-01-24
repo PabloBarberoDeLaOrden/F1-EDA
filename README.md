@@ -40,17 +40,11 @@ Indicadores:
 - proporción de vueltas rápidas
 - las posiciones ganadas en carrera
 
-![Graph_comparativo](https://github.com/PabloBarberoDeLaOrden/F1-EDA/blob/main/F1_EDA/ptos_posis_anio.html)
-
 Pudiendo de esta manera identificar cómo la temporada de Michael Schumacher en 2002, ha sido la más dominante de la F1. Habiendo estado en el podio todas las carreras, consiguiendo 22 puntos de media.
 
 Otra temporada a tener en cuenta es la que realizó Vettel en 2011, quizá no fue la mejor en tiempo de carrera pero si lo fue a una vuelta ya que obtuvo la pol position en alrededor de un 80% de las carreras y disponiendo de unos 20 puntos por carrera, uno de los valores más altos.
 
 ## Comparación entre la temporada actual y las más dominantes
-
-Como ya hemos comentado a lo largo del estudio, la comparación entre distintas temporadas resulta una acción complicada ya que estas se desarrollaban en distintos momentos del tiempo, con sus factores concretos cada una. Por ello no resultaría lógico comparar de manera directa a los campeones de cada temporada entre sí.
-
-Lo que realmente se va a estudiar son las rivalidades que tuvieron los campeones con su perseguidor, los cuales estaban emplazados en el mismo momento del tiempo y con las mismas condiciones. Estas rivalidades si se podrán comparar entre temporadas.
 
 Se puede observar como en la temporada 2002, a partir del primer tercio de la temporada el gap entre Ferrari y sus rivales incrementa exponencialmente. Partiendo de una diferencia de 1 punto llegando a tener una de casi 300 a final de temporada.
 
@@ -65,8 +59,6 @@ Pudiendo de esta manera decir que esta temporada se asemeja a una de las más do
 En cuanto a la comparación con la última temporada, nos encontramos unos escenarios contrapuestos en cuanto a dominancia se refiere.
 
 Podemos observar como la disputa por el campeonato se alargó durante toda la temporada, siendo esta temporada una de las más competidas de toda la historia, concretamente se decidió por un punto que se obtuvo en un adelantamiento en la última vuelta.
-
-Por lo tanto se determina que la dominancia respecto al rival con el cambio de normativa ha aumentado, lo que puede llevar a entender que la nueva normativa no ha alcanzado el objetivo que realmente buscaba.
 
 Sin embargo, resumir la competitividad exclusivamente al primer y segundo puesto no resulta plenamente acertado, recordemos que otros 18 pilotos también disputan la competición, por ello habría que abstraerse y comparar también el resto de la parrilla.
 
